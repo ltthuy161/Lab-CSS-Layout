@@ -1,0 +1,44 @@
+.container {
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+header, 
+nav,
+footer,
+.body,
+.header {
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header,
+.body {
+    font-size: 20px;
+}
+
+header, nav {
+    text-align: left;
+}
+
+.header,
+.body {
+    align-content: center;
+}
+
+footer {
+    padding: 0
+}

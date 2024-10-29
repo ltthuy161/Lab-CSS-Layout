@@ -1,0 +1,38 @@
+nav {
+    float: left;
+    width: 20%;
+    min-height: 400px;
+}
+
+footer {
+    clear: both;
+}
+
+main {
+    margin: 1rem 0;
+    overflow: auto;
+}
+
+.content-box {
+    float: right;
+    width: calc(80% - 1rem);
+    box-sizing: border-box;
+}
+
+.body {
+    box-sizing: border-box;
+    overflow: auto;
+    left: 1rem;
+    bottom: 1rem;
+    min-height: calc(320px - 1rem);
+}
+
+.header {
+    box-sizing: border-box;
+    overflow: auto;
+    left: 1rem;
+    bottom: 1rem;
+    min-height: 80px;
+    margin-bottom: 1rem;
+}
+

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+}
+
+main {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    height: 400px;
+}
+
+nav {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.content-box {
+    grid-area: 1 / 2 / 1 / 6;
+    display: grid;
+    grid-template-rows: repeat(5, 20%);
+    gap: 1rem;
+    width: calc(100% - 3rem);
+}
+
+.header {
+    gap: 1rem;
+    grid-area: 1 / 1 / 2 / 3;
+    width: calc(100% - 1rem);
+}
+
+.body {
+    gap: 1rem;
+    grid-area: 2 / 1 / 6 / 3;
+    width: calc(100% - 1rem);
+    height: calc(100% - 4rem);
+}
+
