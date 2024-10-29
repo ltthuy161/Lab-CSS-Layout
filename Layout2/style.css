@@ -1,5 +1,5 @@
 .container {
-    background-color: lightgray;
+    background-color: #f2f2f2;
     padding: 1rem;
 }
 
@@ -9,11 +9,15 @@ footer,
 .body,
 .header {
     box-sizing: border-box;
-    background-color: white;
+    background-color: #c0c0c0;
     text-align: center;
-    font-weight: bold;
     padding: 1rem;
     border: 1px solid black;
+}
+
+nav {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
 }
 
 body {
