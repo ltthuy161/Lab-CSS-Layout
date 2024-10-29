@@ -23,10 +23,14 @@ nav {
 .header {
     display: flex;
     height: 20%;
+    justify-content: center;
+    align-items: center;
 }
 
 .body {
     display: flex;
     gap: 1rem;
     height: 80%;
+    justify-content: center;
+    align-items: center;
 }
